@@ -6,7 +6,7 @@ body{
     margin: 0px;
     display: grid; 
     grid-template-columns: 1fr 12fr 1fr ; 
-  grid-template-rows: 0.1fr 0.3fr 40fr 8fr 10fr 20fr 1fr 1fr; 
+  grid-template-rows: 80px 50px 40fr 8fr 10fr 20fr 1fr 1fr; 
   
     gap: 2px 6px; 
    
@@ -124,3 +124,28 @@ body{
     color: white;
 }
 
+
+.main{
+    grid-area: main;
+
+    display: grid;
+
+
+
+  
+    grid-template-columns: 1fr 4fr 1fr ; 
+    grid-template-rows: 50px 100px  1fr 1fr ; 
+    gap: 7px 5px; 
+    grid-template-areas: 
+      "inner inner inner"
+      "aside1 aside2 aside2"
+      "aside1 product-container product-container"
+      "aside1 product-container product-container"
+      "aside1 product-container product-container"; 
+  }
+
+  .inner{
+    grid-area: inner;
+    color: gray;
+    justify-items: center;
+  }
