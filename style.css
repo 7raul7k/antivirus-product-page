@@ -158,7 +158,7 @@ body{
    
 
     grid-template-columns: 210px;
-    grid-template-rows: 180px 90px;
+    grid-template-rows: 200px 80px 440px;
     grid-row-gap: 10px;
     font-size: 12px;
     margin-left: 5%;
@@ -178,6 +178,7 @@ body{
    
     align-items: center;
     justify-content: center;
+    align-content: space-around;;
 
 }
 
@@ -195,17 +196,17 @@ body{
     height: 25px;
 }
 
-.selector-container-title{
+.selector-container-header-title{
     display: block;
-    width: 100%;
+    width: 50%;
 }
 
 .selector-container-nav{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    align-content: space-around;
+    justify-content: center;
+    align-content: center;
     width: 100%;
     height: 100%;
     
@@ -225,4 +226,14 @@ body{
 .selector-container-item a{
   text-decoration: none;   
   color: black;
+}
+
+#selector-label{
+    display: block;
+    width: 40%;
+}
+
+.selector-container-title{
+    display: block;
+    width: 60%;
 }
