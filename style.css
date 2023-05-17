@@ -149,3 +149,24 @@ body{
     color: gray;
     justify-items: center;
   }
+
+  .aside1{
+    grid-area: aside1;
+
+    display: grid;
+
+   
+
+    grid-template-columns: 200px;
+    grid-template-rows: 180px;
+    grid-row-gap: 10px;
+    font-size: 12px;
+    margin-left: 5%;
+  }
+
+  .product-category-selector{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 255, 0.281);
+    color: blue;
+  }
